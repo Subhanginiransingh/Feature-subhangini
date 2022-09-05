@@ -1,0 +1,44 @@
+{
+  "candidateList": [
+    {
+      "Name": "liza",
+      "experiance": "1",
+      "skill": "kk",
+      "id": 1
+    },
+    {
+      "Name": "ss",
+      "experiance": "2",
+      "skill": "bjbj",
+      "id": 2
+    },
+    {
+      "Name": "dd",
+      "experiance": "1",
+      "skill": "dfffg",
+      "id": 3
+    },
+    {
+      "Name": "abc",
+      "experiance": "7",
+      "skill": ".net",
+      "id": 5
+    },
+    {
+      "Name": "li",
+      "experiance": "2",
+      "skill": "gvg",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

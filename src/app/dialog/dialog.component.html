@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>Add Candidate form</h1>
+<form [formGroup]="candidateform">
+    <div mat-dialog-content>
+        <mat-form-field appearance="outline">
+            <mat-label>Candidate Name</mat-label>
+            <input formControlName="Name" matInput placeholder="Name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Candidate experiance</mat-label>
+            <mat-select formControlName="experiance" placeholder="experiance">
+                <mat-option value="0">0</mat-option>
+                <mat-option value="1">1</mat-option>
+                <mat-option value="2">2</mat-option>
+                <mat-option value="3">3</mat-option>
+                <mat-option value="4">4</mat-option>
+                <mat-option value="5">5</mat-option>
+                <mat-option value="6">6</mat-option>
+                <mat-option value="7">7</mat-option>
+                <mat-option value="8">8</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Skill</mat-label>
+            <input formControlName="skill" matInput placeholder="skill">
+        </mat-form-field>
+    </div>
+    
+</form>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary" (click)="addCandidate()">{{actionBtn}}</button>
+</div>
